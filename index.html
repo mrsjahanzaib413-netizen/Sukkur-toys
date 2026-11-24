@@ -10,33 +10,65 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sukkur Toys by Jahanzaib Shaikh</title>
+<title>Sukkur Toys | Jahanzaib Shaikh</title>
 
 <style>
 
-body{margin:0;font-family:Arial;background:#f4f8ff;color:#172b4d}
+*{box-sizing:border-box}
 
-header{background:#102b55;color:white;padding:20px;text-align:center}
+body{margin:0;font-family:Arial,sans-serif;background:#fff9f1;color:#30304a}
 
-.hero{background:linear-gradient(120deg,#102b55,#2385c5);color:white;text-align:center;padding:65px 20px}
+header{background:#7046c8;color:white;text-align:center;padding:22px 10px}
 
-h1{font-size:38px}
+header h1{margin:0;font-size:28px}
 
-button,.btn{background:#ffd45c;color:#102b55;padding:14px 23px;border:0;border-radius:25px;font-weight:bold;text-decoration:none;display:inline-block;margin:8px}
+header p{margin:8px 0 0}
 
-section{padding:35px 18px;text-align:center}
+nav{background:#ffcf4a;padding:15px;text-align:center;position:sticky;top:0;z-index:5}
 
-.products{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;max-width:800px;margin:auto}
+nav a{color:#39265e;text-decoration:none;font-weight:bold;margin:0 9px;font-size:14px}
 
-.item{background:white;padding:25px 10px;border-radius:15px;box-shadow:0 3px 12px #0001}
+.hero{padding:55px 18px;text-align:center;color:white;background:linear-gradient(135deg,#ff5d91,#ff9d45,#8057d9)}
 
-.emoji{font-size:48px}
+.hero h2{font-size:38px;margin:0 0 15px}
 
-h2{color:#102b55}
+.hero p{font-size:18px;line-height:1.6}
 
-.contact{background:#e5f2ff}
+.btn{display:inline-block;background:#ffe15a;color:#39265e;padding:15px 24px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:12px}
 
-footer{background:#102b55;color:white;text-align:center;padding:20px}
+section{padding:40px 16px;text-align:center}
+
+section h2{font-size:30px;color:#7046c8}
+
+.intro{color:#777}
+
+.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:900px;margin:auto}
+
+.card{background:white;border-radius:20px;padding:20px 9px;box-shadow:0 5px 18px #7046c822;border:2px solid #ffe3ef}
+
+.card:nth-child(4n+1){background:#fff0f5}
+
+.card:nth-child(4n+2){background:#fff8df}
+
+.card:nth-child(4n+3){background:#eaf7ff}
+
+.card:nth-child(4n){background:#f1ebff}
+
+.emoji{font-size:57px}
+
+.card h3{font-size:17px;margin:10px 0;color:#493276}
+
+.card p{font-size:13px;color:#777}
+
+.order{display:inline-block;background:#21a65b;color:white;padding:11px 14px;border-radius:25px;text-decoration:none;font-weight:bold;font-size:13px}
+
+.about{background:#e9f7ff;line-height:1.8}
+
+.contact{background:#fff0c9;line-height:1.9}
+
+footer{background:#7046c8;color:white;text-align:center;padding:25px 12px}
+
+@media(min-width:650px){.products{grid-template-columns:repeat(3,1fr)}}
 
 </style>
 
@@ -46,73 +78,156 @@ footer{background:#102b55;color:white;text-align:center;padding:20px}
 
 <header>
 
-<h2 style="color:white">🧸 SUKKUR TOYS</h2>
+<h1>🧸 SUKKUR TOYS 🎁</h1>
 
-By Jahanzaib Shaikh
+<p>By Jahanzaib Shaikh</p>
+
+<p>Making Childhood More Beautiful ❤️</p>
 
 </header>
 
-<div class="hero">
+<nav>
 
-<h1>Welcome to Sukkur Toys!</h1>
+<a href="#home">Home</a>
 
-<p>Happiness, fun and smiles for every child.</p>
+<a href="#products">Products</a>
 
-<p>Explore our amazing collection of toys, bikes, jeeps and more.</p>
+<a href="#about">About Us</a>
 
-<a class="btn" href="https://wa.me/923088800092">ORDER ON WHATSAPP</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<div class="hero" id="home">
+
+<h2>Welcome to Our Toy World! 🌈</h2>
+
+<p>Fun, Colours & Happiness for Every Child!</p>
+
+<p>Discover Amazing Toys, Jeeps, Bikes, Swings and More.</p>
+
+<a class="btn" href="https://wa.me/923088800092">🛒 SHOP ON WHATSAPP</a>
 
 </div>
 
-<section>
+<section id="products">
 
-<h2>Our Products</h2>
+<h2>🌟 Explore Our Collection</h2>
 
-<p>Explore our toy collection</p>
+<p class="intro">Something Special for Every Little Star!</p>
 
 <div class="products">
 
-<div class="item"><div class="emoji">🚙</div><h3>Ride-on Jeeps</h3></div>
+<div class="card">
 
-<div class="item"><div class="emoji">🏍️</div><h3>Kids Bikes</h3></div>
+<div class="emoji">🚙</div>
 
-<div class="item"><div class="emoji">🚲</div><h3>Bicycles</h3></div>
+<h3>Electric Jeeps</h3>
 
-<div class="item"><div class="emoji">🛝</div><h3>Swings & Slides</h3></div>
+<p>Little drivers, big adventures!</p>
 
-<div class="item"><div class="emoji">👶</div><h3>Baby Walkers</h3></div>
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Electric%20Jeeps">Order Now</a>
 
-<div class="item"><div class="emoji">🧸</div><h3>Soft Toys</h3></div>
+</div>
 
-<div class="item"><div class="emoji">🎮</div><h3>Games & Toys</h3></div>
+<div class="card">
 
-<div class="item"><div class="emoji">🎁</div><h3>Many More</h3></div>
+<div class="emoji">🚲</div>
+
+<h3>Kids Bicycles</h3>
+
+<p>Ride into happiness!</p>
+
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Bicycles">Order Now</a>
+
+</div>
+
+<div class="card">
+
+<div class="emoji">🏍️</div>
+
+<h3>Kids Bikes</h3>
+
+<p>Fun rides for little stars!</p>
+
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Kids%20Bikes">Order Now</a>
+
+</div>
+
+<div class="card">
+
+<div class="emoji">🎠</div>
+
+<h3>Baby Walkers</h3>
+
+<p>Happy little steps!</p>
+
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Baby%20Walkers">Order Now</a>
+
+</div>
+
+<div class="card">
+
+<div class="emoji">🛝</div>
+
+<h3>Swings & Slides</h3>
+
+<p>Playtime starts here!</p>
+
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Swings">Order Now</a>
+
+</div>
+
+<div class="card">
+
+<div class="emoji">🧸</div>
+
+<h3>Toys & Gifts</h3>
+
+<p>Gifts full of smiles!</p>
+
+<a class="order" href="https://wa.me/923088800092?text=I%20want%20to%20see%20Toys">Order Now</a>
+
+</div>
 
 </div>
 
 </section>
 
-<section class="contact">
+<section class="about" id="about">
 
-<h2>Contact Our Shop</h2>
+<h2>💜 About Sukkur Toys</h2>
+
+<p>Welcome to Sukkur Toys by Jahanzaib Shaikh! Your destination for children's toys, electric cars, bicycles, bikes, swings and much more.</p>
+
+<p>We love bringing smiles to little faces!</p>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>📍 Visit Our Shop</h2>
 
 <p><b>Sukkur Toys by Jahanzaib Shaikh</b></p>
 
-<p>Madicine Market, Sukkur, Pakistan</p>
+<p>Madison Market, Sukkur, Pakistan</p>
 
 <p>WhatsApp: 03088800092</p>
 
-<a class="btn" href="https://wa.me/923088800092?text=Assalam-o-Alaikum%2C%20I%20want%20to%20see%20your%20toys.">Chat With Us</a>
+<a class="btn" href="https://wa.me/923088800092">Chat With Us 💬</a>
 
 </section>
 
 <footer>
 
-© Sukkur Toys by Jahanzaib Shaikh
+<h3>🧸 Sukkur Toys by Jahanzaib Shaikh</h3>
+
+<p>Fun • Happiness • Smiles ❤️</p>
+
+<p>© 2026 All Rights Reserved</p>
 
 </footer>
 
 </body>
 
 </html>
-<!-- Website updated -->
